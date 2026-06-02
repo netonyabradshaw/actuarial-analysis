@@ -1,3 +1,4 @@
+setwd("/Users/owner/northgate-auto")
 library(DBI)
 library(RPostgres)
 library(tidyverse)
@@ -154,6 +155,7 @@ write_csv(triangle,      "output/loss_triangle.csv")
 write_csv(factor_summary,"output/factor_selection.csv")
 write_csv(cdf_summary,   "output/cdf_summary.csv")
 write_csv(cl_results,    "output/chain_ladder_results.csv")
+
 
 # --- 8. VISUALIZATIONS ------------------------------------------
 # Development pattern chart
